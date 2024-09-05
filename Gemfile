@@ -62,6 +62,8 @@ gem 'devise'
 # a devise extension which uses JWT tokens for user authentication
 gem 'devise-jwt'
 
+gem "ruby_ci", github: "RubyCI/ruby_ci_gem", branch: "bugfix/188183739-increase-ruby-support"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'annotate'
